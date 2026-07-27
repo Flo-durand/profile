@@ -67,9 +67,7 @@ button{
 p{
   margin: 1rem 3rem;
 }
-
-@media (max-width: 360px) {
-  @media (max-width: 960px) {
+@media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
     width: 700px;
@@ -82,6 +80,8 @@ p{
     width: 500px;
   }
 }
+
+@media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
     width: 300px;
