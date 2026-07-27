@@ -69,6 +69,19 @@ p{
 }
 
 @media (max-width: 360px) {
+  @media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
     width: 300px;
