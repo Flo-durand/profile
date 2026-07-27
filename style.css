@@ -63,16 +63,15 @@ button{
   border-radius: 10px;
 
 }
+ .container {
+    width: 700px;
+    margin: auto;
+  }
 
 p{
   margin: 1rem 3rem;
 }
-@media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
-  .container {
-    width: 700px;
-  }
-}
+
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
